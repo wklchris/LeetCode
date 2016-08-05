@@ -16,4 +16,6 @@ If you have an account on LeetCode OJ, you can submit one answer of a question, 
 
 For example, this is the screenshot of *001-TwoSums* question:  
 
-[](https://github.com/wklchris/LeetCode/blob/master/Example.png)
+[](https://raw.githubusercontent.com/wklchris/LeetCode/master/Example.png)
+
+*(If you cannot see the picture above, you can opne the `Example.png` file in this repository instead.)*
