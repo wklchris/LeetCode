@@ -1,2 +1,5 @@
 # Python:
-/*/.idea
+__pycache__
+
+# line_profile
+*.lprof

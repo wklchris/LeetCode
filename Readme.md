@@ -1,21 +1,24 @@
+# Leetcode
+
+![png](https://img.shields.io/badge/language-Python%203-brightgreen.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+This is my personal repo while learning algorithms. There is NO GUARANTEE for opitimal solutions, so sometimes you might find a better one that what I post here (If so, I appreciate it that if you can post an issue).
+
 # What's Leetcode？
 
-> **LeetCode OJ** is a platform for preparing technical coding interviews. Pick from an expanding library of more than 190 questions, code and submit your solution to see if you have solved it correctly.
+> **LeetCode OJ** is a platform for preparing technical coding interviews. Pick from an expanding library of hundreds of questions, code and submit your solution to see if you have solved it correctly.
 
 You can visit [Leetcode Online Judge](https://leetcode.com/) for more information.
 
-# What languages do I use here?
+# Solution Table
 
-Currently only **Python** --- Although I know it will hardly be as fast as `C++`.
+Each file in this repo goes with a simple test, which use the example test testcase on LeetCode(or some cases made by myself). 
 
-# How will I show the code to you?
+You may utilize my test code (`from _mytest import timetest`) to find the running time difference between your code and mine. Testing is powered by [line_profiler](https://pypi.python.org/pypi/line_profiler/) package.
 
-By `.py` files (Python). I will add some necessary comments in those files, and try to name them by method I use and time it takes to pass the total test. 
-
-If you have an account on LeetCode OJ, you can submit one answer of a question, then go to "**My Submissions**", and click "**Accepted**" of one answer. You will see how good your answer works among thousands of others' answers. 
-
-For example, this is the screenshot of *001-TwoSums* question:  
-
-[](https://raw.githubusercontent.com/wklchris/LeetCode/master/Example.png)
-
-*(If you cannot see the picture above, you can opne the `Example.png` file in this repository instead.)*
+| # | Title (with file link) | Complexity | Level | Category | Time | Rank |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | [Two Sum](0001.py) | *O(n)* | Easy | HashTable | 32ms | 97.3\% |
+| 2 | [Add Two Numbers](0002.py) | *O(n)* | Medium | LinkedList | 149ms | 22.4\% |
+| 3 | [Longest Substring Without Repeating Characters](0003.py) | *O(n)* | Medium | HashTable | 82ms | 88.5\% |
