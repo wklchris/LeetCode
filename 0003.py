@@ -20,14 +20,13 @@ class Solution(object):
         """
         d = {}
         head = L =  0
-        for i in range(len(s)):
-            if s[i] in d:
+        for i, t in enumerate(s):
+            if t in d:
                 L = max(L, i - head)
-                head = max(head, d[s[i]] + 1)
-            d[s[i]] = i
-        L = max(L, len(s) - head)
+                head = max(head, d[t] + 1)
+            d[t] = i
 
-        return L
+        return max(L, len(s) - head)
 
 
 # TEST ONLY

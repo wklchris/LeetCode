@@ -15,10 +15,16 @@ You can visit [Leetcode Online Judge](https://leetcode.com/) for more informatio
 
 Each file in this repo goes with a simple test, which use the example test testcase on LeetCode(or some cases made by myself). 
 
-You may utilize my test code (`from _mytest import timetest`) to find the running time difference between your code and mine. Testing is powered by [line_profiler](https://pypi.python.org/pypi/line_profiler/) package.
+You may utilize my test code (`import _mytest`) to test the difference between your code and mine. 
+- Time testing is supported by [line_profiler](https://pypi.python.org/pypi/line_profiler/) package.
+- Unit testing is supported by [unittest](https://docs.python.org/3/library/unittest.html) built-in library.
 
-| # | Title (with file link) | Complexity | Level | Category | Time | Rank |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 | [Two Sum](0001.py) | *O(n)* | Easy | HashTable | 32ms | 97.3\% |
-| 2 | [Add Two Numbers](0002.py) | *O(n)* | Medium | LinkedList | 149ms | 22.4\% |
-| 3 | [Longest Substring Without Repeating Characters](0003.py) | *O(n)* | Medium | HashTable | 82ms | 88.5\% |
+You may find that some problems are skipped, because I've planed to only cover easy and medium problems at first run. But don't worry, this is a long-term project. Just give me some time.
+
+| # | Title (with file link) | Cxty | Level | Category | Time | Rank | Note |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | [Two Sum](0001.py) | *O(n)* | Easy | HashTable | 32ms | 97.3\% | |
+| 2 | [Add Two Numbers](0002.py) | *O(n)* | Medium | LinkedList | 149ms | 22.4\% | |
+| 3 | [Longest Substring Without Repeating Characters](0003.py) | *O(n)* | Medium | HashTable | 82ms | 88.5\% | |
+| 5 | [Longest Palindromic Substring](0004.py) | *O(n)* | Medium | String | 838ms | 76.9\% | Manacher's Algo |
+| 5 | | *O(n)* | | | 86ms | 95.3\% | |
