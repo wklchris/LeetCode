@@ -15,7 +15,7 @@ Example:
     Input: "cbbd"
 
     Output: "bb"
-_'''
+'''
 
 class Solution(object):
     #
