@@ -9,7 +9,9 @@ Examples:
 
     Given "bbbbb", the answer is "b", with the length of 1.
 
-    Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
+    Given "pwwkew", the answer is "wke", with the length of 3. 
+
+Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 '''
 
 class Solution(object):
@@ -30,7 +32,15 @@ class Solution(object):
 
 
 # TEST ONLY
-if __name__ == "__main__":
-    from _mytest import timetest
+import unittest
 
-    timetest(Solution().lengthOfLongestSubstring, "pwwkew")
+class TestConvert(unittest.TestCase):
+    def test_equal(self):
+        func = Solution().lengthOfLongestSubstring
+        self.assertEqual(func("pwwkew"), 3)
+        self.assertEqual(func("aabcacde"), 4)
+        self.assertEqual(func("acdbeccda"), 5)
+        self.assertEqual(func("abcde"), 5)
+
+if __name__ == "__main__":
+    unittest.main()

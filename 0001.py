@@ -1,6 +1,5 @@
 '''
 1. Two Sum
-https://leetcode.com/problems/two-sum/description/
 
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
@@ -28,11 +27,14 @@ class Solution(object):
 
 
 # TEST ONLY
-if __name__ == "__main__":
-    from _mytest import timetest
+import unittest
 
-    nums = [3, 2, 4]
-    target = 6
-    
-    timetest(Solution().twoSum, nums, target)
+class TestConvert(unittest.TestCase):
+    def test_equal(self):
+        func = Solution().twoSum
+        self.assertEqual(func([3, 2, 4], 6), [1, 2])
+        self.assertEqual(func([2, 7, 11, 15], 9), [0, 1])
+
+if __name__ == "__main__":
+    unittest.main()
     

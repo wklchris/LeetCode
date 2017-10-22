@@ -71,12 +71,18 @@ class Solution(object):
 
 
 # TEST ONLY
+import unittest
+
+class TestConvert(unittest.TestCase):
+    def test_equal(self):
+        func = Solution().longestPalindrome
+        func2 = Solution().longestPalindrome2
+        test_case = ["abb", "ddc", "abccbda", "a", "", "acdbe"]
+        test_answer = ["bb", "dd", "bccb", "a", "", "a"]
+
+        for i, j in zip(test_case, test_answer):
+            self.assertEqual(func(i), j)
+            self.assertEqual(func2(i), j)
+
 if __name__ == "__main__":
-    # import unittest
-
-    # test_case = ["abb", "ddc", "abccbda", "a", "", "acdbe"]
-    # test_answer = ["bb", "dd", "bccb", "a", "", None]
-
-    print(Solution().longestPalindrome("acdbdcb"),
-          Solution().longestPalindrome2("acdbdcb"))
-
+    unittest.main()

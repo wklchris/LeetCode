@@ -1,7 +1,9 @@
 '''
 2. Add Two Numbers
 
-You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+You are given two non-empty linked lists representing two non-negative integers. 
+The digits are stored in reverse order and each of their nodes contain a single digit. 
+Add the two numbers and return it as a linked list.
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
@@ -43,13 +45,21 @@ class Solution(object):
             current = current.next
             num //= 10
 
-        return lsum.next
+        return str(lsum.next)
+
 
 # TEST ONLY
+import unittest
+
+class TestConvert(unittest.TestCase):
+    def test_equal(self):
+        func = Solution().addTwoNumbers
+        a, a.next = ListNode(2), ListNode(4)
+        b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(9)
+
+        self.assertEqual(func(a, b), "7->0->0->1")
+
+
 if __name__ == "__main__":
-    from _mytest import timetest
+    unittest.main()
 
-    a, a.next = ListNode(2), ListNode(4)
-    b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(8)
-
-    timetest(Solution().addTwoNumbers, a, b)
