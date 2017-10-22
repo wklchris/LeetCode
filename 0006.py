@@ -1,4 +1,4 @@
-"""
+'''
 6. ZigZag Conversion
 
 The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: 
@@ -21,7 +21,7 @@ Write the code that will take a string and make this conversion given a number o
     A   L S   I G
     Y A   H R
     P     I
-"""
+'''
 class Solution(object):
     def convert(self, s, numRows):
         """
