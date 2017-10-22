@@ -27,4 +27,5 @@ You may find that some problems are skipped, because I've planed to only cover e
 | 2 | [Add Two Numbers](0002.py) | *O(n)* | Medium | LinkedList | 149ms | 22.4\% | |
 | 3 | [Longest Substring Without Repeating Characters](0003.py) | *O(n)* | Medium | HashTable | 82ms | 88.5\% | |
 | 5 | [Longest Palindromic Substring](0004.py) | *O(n)* | Medium | String | 838ms | 76.9\% | Manacher's Algo |
-| 5 | | *O(n)* | | | 86ms | 95.3\% | |
+| 5 | | *O(n^2)* | | | 86ms | 95.3\% | |
+| 6 | [Zigzag Conversion](0006.py) | *O(n)* | Medium | String | 92ms | 82.5\% | | 
