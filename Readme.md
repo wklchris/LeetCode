@@ -3,7 +3,9 @@
 ![png](https://img.shields.io/badge/language-Python%203-brightgreen.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-This is my personal repo while learning algorithms. There is NO GUARANTEE for opitimal solutions, so sometimes you might find a better one that what I post here (If so, I appreciate it that if you can post an issue).
+[**All solutions are explained in Explanation/README.md**](Explanation/README.md).
+
+This is my personal repo while learning algorithms. There is NO GUARANTEE for opitimal solutions, so sometimes you might find a better one that what I post here (If so, I appreciate it that if you can post an issue). 
 
 # What's Leetcode？
 
@@ -30,6 +32,8 @@ You may find that some problems are skipped, because I've planed to only cover e
 |  | | *O(n^2)* | | | 86ms | 95.3\% | Odd & Even |
 | 6 | [Zigzag Conversion](0006.py) | *O(n)* | Medium | String | 92ms | 82.5\% | |
 | 7 | [Reverse Integer](0007.py) | *O(1)* | Easy | Basic | 42ms | 94.4\% | |
-|  | | *O(lgn)* | | | 48ms | 72.0\% | No num2str |
-| 9 | [Palindrome Number](0009.py) | *O(1)*| Easy | Basic | 346ms | 11.6\% | O(1) Space | |
+|  | | *O(1)* | | | 48ms | 72.0\% | No num2str |
+| 8 | [String to Integer (atoi)](0008.py) | *O(1)* | Medium | String | 58ms | 77.8\% | |
+| 9 | [Palindrome Number](0009.py) | *O(1)*| Easy | Basic | 346ms | 11.6\% | O(1) Space |
 | | | *O(n)* | | | 182ms | 98.1\% | O(n) Space | |
+| 11 | [Container With Most Water](0011.py) | *O(n)* | Medium | | 56ms | 95.2\% | |
