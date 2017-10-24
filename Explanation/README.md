@@ -71,3 +71,19 @@ Key points:
 Scan from both sides, `v = (j - i) * h` where `h = min(height[i], height[j])`. 
 
 A trick is that we can skip some vertical lines in the middle of our scanning path, if their height is not larger than `h`.
+
+## 0012 Integer to Roman
+
+Because each digit can only have 10 cases, the straightforward thought is quite high efficient. The algorithm starts from the highest digit to the lowest.
+
+## 0013 Roman to Integer
+
+When a digit number is larger than or equal to the number on its right digit, it should be added to the sum; otherwise it should be subtracted from the sum.
+
+The last digit will always be added.
+
+## 0014 Longest Common Prefix
+
+The `zip` function can help you to transpose a "matrix" (a list whose entries are all also lists). This trick works well in this problem, since it makes it feasible to use `set` function to examine equality along each "column".
+
+Another thought is to use `reduce` function, because comparison between each pair of strings affects how we compare next pair (namely, it helps update the upper bound of longest common prefix length). This is also the basic idea of `reduce` function.
