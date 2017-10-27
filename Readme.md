@@ -15,7 +15,7 @@ You can visit [Leetcode Online Judge](https://leetcode.com/) for more informatio
 
 # Solution Table
 
-Each file in this repo goes with a simple test, which use the example test testcase on LeetCode(or some cases made by myself). 
+Each file in this repo goes with a number of simple tests, which use the example test testcase on LeetCode(or some cases made by myself). 
 
 You may utilize my test code (`import _mytest`) to test the difference between your code and mine. 
 - Time testing is supported by [line_profiler](https://pypi.python.org/pypi/line_profiler/) package.
@@ -34,10 +34,11 @@ You may find that some problems are skipped, because I've planed to only cover e
 | 7 | [Reverse Integer](0007.py) | *O(1)* | Easy | Math | 42ms | 94.4\% | |
 |  | | *O(1)* | | | 48ms | 72.0\% | No num2str |
 | 8 | [String to Integer (atoi)](0008.py) | *O(1)* | Medium | String | 58ms | 77.8\% | |
-| 9 | [Palindrome Number](0009.py) | *O(1)*| Easy |  | 346ms | 11.6\% | O(1) Space |
+| 9 | [Palindrome Number](0009.py) | *O(1)*| Easy | Math | 346ms | 11.6\% | O(1) Space |
 | | | *O(n)* | | | 182ms | 98.1\% | O(n) Space | |
 | 11 | [Container With Most Water](0011.py) | *O(n)* | Medium | Optmz | 56ms | 95.2\% | |
 | 12 | [Integer to Roman](0012.py) | *O(n)* | Medium | Math | 95ms | 94.5\% | | 
 | 13 | [Roman to Integer](0013.py) | *O(n)* | Easy | Math | 125ms | 82.8\% | |
 | 14 | [Longest Common Prefix](0014.py) | *O(nm)* | Easy | String | 32ms | 96.4\% | Pythonic |
 | | | *O(nm)* | | | 39ms | 66.7\% | `reduce` function |
+| 15 | [3 Sum](0015.py) | *O(n^2)* | Medium | N/A | 959ms | 83.4\% | Scan from both sides |

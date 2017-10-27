@@ -4,6 +4,8 @@ This post might help those who don't understand the algorithm thoroughly.
 
 ## 0001 Two Sum
 
+*See also*: 0015 (3 sum).
+
 Use the "index" and "value" to save the summation relation information so that we only need to scan the whole list once. Time complexity *O(n)*.
 
 Instead, the naive thought costs *n(n-1)/2* times comparision (worst), therefore it will be much slower.
@@ -87,3 +89,9 @@ The last digit will always be added.
 The `zip` function can help you to transpose a "matrix" (a list whose entries are all also lists). This trick works well in this problem, since it makes it feasible to use `set` function to examine equality along each "column".
 
 Another thought is to use `reduce` function, because comparison between each pair of strings affects how we compare next pair (namely, it helps update the upper bound of longest common prefix length). This is also the basic idea of `reduce` function.
+
+## 0015 3 Sum
+
+*See also*: 0001(two sum).
+
+It's currently accepted that the algorithm should be *O(n^2)*. First sort the list, then enumerate the first number from lowest to highest (outer loop), and scan the other 2 numbers from both sides of the sequence between the first number and the tail number (inner loop). 
