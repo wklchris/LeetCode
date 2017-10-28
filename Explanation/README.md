@@ -4,7 +4,7 @@ This post might help those who don't understand the algorithm thoroughly.
 
 ## 0001 Two Sum
 
-*See also*: 0015 (3 sum).
+*See also*: 0015 (3 sum), 0018 (4 sum).
 
 Use the "index" and "value" to save the summation relation information so that we only need to scan the whole list once. Time complexity *O(n)*.
 
@@ -92,6 +92,21 @@ Another thought is to use `reduce` function, because comparison between each pai
 
 ## 0015 3 Sum
 
-*See also*: 0001(two sum).
+*See also*: 0001(two sum), 0018(4 sum).
 
 It's currently accepted that the algorithm should be *O(n^2)*. First sort the list, then enumerate the first number from lowest to highest (outer loop), and scan the other 2 numbers from both sides of the sequence between the first number and the tail number (inner loop). 
+
+## 0017 Letter Combinations of a Phone Number
+
+A good backtracking example. Note that when we talk about `reduce` function:
+```
+reduce(func, lst, initial=I)
+``` 
+equals to the last entry of sequence: `a_0 = func(I, lst[0]), a_1 = func(a_0, lst[1]), a_i = func(a_[i-1], lst[i])`.
+
+
+## 0018 4 Sum
+
+*See also*: 0001(two sum), 0015(3 sum).
+
+Hey, we have done many "k-sum" problems! The basic idea is to reduce k to 2, then solve it. So we use recursion here, and it does work well.

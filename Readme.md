@@ -23,6 +23,8 @@ You may utilize my test code (`import _mytest`) to test the difference between y
 
 You may find that some problems are skipped, because I've planed to only cover easy and medium problems at first run. But don't worry, this is a long-term project. Just give me some time.
 
+Because the number of Python 3 submission is always too few, I test all my Python 3 code under "Python" instead of "Python 3". Therefore, the rank and time is only for fun.
+
 | # | Title (with file link) | Cxty | Level | Category | Time | Rank | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [Two Sum](0001.py) | *O(n)* | Easy | HashTable | 32ms | 97.3\% | |
@@ -42,3 +44,6 @@ You may find that some problems are skipped, because I've planed to only cover e
 | 14 | [Longest Common Prefix](0014.py) | *O(nm)* | Easy | String | 32ms | 96.4\% | Pythonic |
 | | | *O(nm)* | | | 39ms | 66.7\% | `reduce` function |
 | 15 | [3 Sum](0015.py) | *O(n^2)* | Medium | N/A | 959ms | 83.4\% | Scan from both sides |
+| 17 | [Letter Combination of a Phone Number](0017.py) | *O(n\*4^n)* | Medium | Backtrack | 32ms | 84.5\% |  |
+| 18 | [4 Sum](0018.py) | *O(n^3)* | Medium | N/A | 99ms | 93.7\% | N-Sum solution |
+
