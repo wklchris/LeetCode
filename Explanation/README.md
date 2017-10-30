@@ -110,3 +110,21 @@ equals to the last entry of sequence: `a_0 = func(I, lst[0]), a_1 = func(a_0, ls
 *See also*: 0001(two sum), 0015(3 sum).
 
 Hey, we have done many "k-sum" problems! The basic idea is to reduce k to 2, then solve it. So we use recursion here, and it does work well.
+
+## 0019 Remove Nth Node from End of List
+
+Two pointers, just similiar with 0002 (Add two numbers).
+
+## 0020 Valid Parenthesis
+
+A simple stack question. Main idea:
+1. If the current char is a left parenthesis, push it into the stack.
+2. If the current char is a right parenthesis:
+    - If it doesn't match the top of stack (or the stack is empty), return False.
+    - Otherwise, pop the top char of the stack.
+3. At the end of the loop, return True if the stack is empty.
+
+
+## 0021 Merge Two Sorted List
+
+Very straightforward. You can also use recursion method to solve it.

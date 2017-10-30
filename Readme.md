@@ -46,4 +46,5 @@ Because the number of Python 3 submission is always too few, I test all my Pytho
 | 15 | [3 Sum](0015.py) | *O(n^2)* | Medium | N/A | 959ms | 83.4\% | Scan from both sides |
 | 17 | [Letter Combination of a Phone Number](0017.py) | *O(n\*4^n)* | Medium | Backtrack | 32ms | 84.5\% |  |
 | 18 | [4 Sum](0018.py) | *O(n^3)* | Medium | N/A | 99ms | 93.7\% | N-Sum solution |
-
+| 19 | [Remove Nth Node From End of List](0019.py) | *O(n)* | Medium | LinkedList | 39ms | 73.0\% | |
+| 20 | [Valid Parenthesis](0020.py) | *O(n)* | Easy | Stack | 32ms | 95.1\% | |
